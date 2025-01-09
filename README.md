@@ -1,6 +1,6 @@
 # Coding Assignment – Associate Software Engineer
 
-This repository contains the solutions for the **Coding Assignment** for the position of **Associate Software Engineer** at **Cloud Vandana**. The assignment covers a series of tasks in **Java**, **JavaScript**, and **HTML**, designed to evaluate problem-solving abilities, coding skills, and creativity.
+This repository contains the solutions to the **Associate Software Engineer** coding assignment at **Cloud Vandana**. The tasks cover Java, JavaScript, and HTML, demonstrating problem-solving skills, coding proficiency, and the ability to build functional projects.
 
 ## Table of Contents
 
@@ -11,82 +11,62 @@ This repository contains the solutions for the **Coding Assignment** for the pos
 2. [JavaScript Solutions](#javascript-solutions)
    - [Reverse Words in a Sentence](#reverse-words-in-a-sentence)
    - [Sort Array in Descending Order](#sort-array-in-descending-order)
-3. [HTML Solutions](#html-solutions)
+3. [HTML Projects](#html-projects)
    - [Basic Calculator](#basic-calculator)
    - [Survey Form](#survey-form)
 
 ## Java Solutions
 
 ### Shuffle an Array
-- **Description**: 
-    - Implemented a custom method to shuffle an array of numbers `[1, 2, 3, 4, 5, 6, 7]` without using built-in methods like `Collections.shuffle()`. 
-    - The approach uses a simple random swapping technique.
+- **Description**: Implemented a custom method to shuffle an array of numbers `[1, 2, 3, 4, 5, 6, 7]` without using built-in methods like `Collections.shuffle()`.
   
-- **Implementation**: 
-    - The `shuffleArray()` method randomly swaps elements of the array to achieve a shuffled state.
+- **Implementation**: The `shuffleArray()` method uses a random swap algorithm to shuffle the array.
 
 ---
 
 ### Convert Roman Numerals to Integer
-- **Description**: 
-    - Created a function that takes a Roman numeral string as input (e.g., `IX`) and returns its corresponding integer value (e.g., `9`).
-    - The conversion follows the Roman numeral rules (e.g., `IV = 4`, `IX = 9`).
+- **Description**: Created a function that converts Roman numeral strings (e.g., `IX`) into their corresponding integer values (e.g., `9`).
   
-- **Implementation**: 
-    - Used a dictionary to map Roman numeral characters to their integer values and applied the conversion logic by iterating through the string.
+- **Implementation**: The conversion is done using a dictionary of Roman numeral values and iterating over the string.
 
 ---
 
 ### Pangram Checker
-- **Description**: 
-    - Created a function to check if a given sentence is a **pangram**, meaning it contains all the letters of the alphabet at least once.
-    - The check is case-insensitive and ensures that all letters are accounted for.
-
-- **Implementation**: 
-    - The input string is converted to lowercase, and a set is used to track unique characters. If the set size equals 26 (the number of letters in the alphabet), the string is a pangram.
+- **Description**: A function that checks if a sentence is a **pangram** (contains all the letters of the alphabet at least once).
+  
+- **Implementation**: The string is converted to lowercase and checked using a set to ensure all letters are present.
 
 ---
 
 ## JavaScript Solutions
 
 ### Reverse Words in a Sentence
-- **Description**: 
-    - A function that takes a sentence as input and reverses each word individually, without reversing the order of the words.
-    - Example: `"This is a sunny day"` becomes `"shiT si a ynnus yad"`.
+- **Description**: A function that reverses each word in a sentence without changing the word order.
   
-- **Implementation**: 
-    - The sentence is split into individual words, and each word is reversed using the `split()` and `reverse()` methods, then joined back into a sentence.
+- **Implementation**: The sentence is split into words, and each word is reversed individually.
 
 ---
 
 ### Sort Array in Descending Order
-- **Description**: 
-    - Implemented a custom sorting algorithm to sort an array in descending order without relying on JavaScript’s built-in `sort()` method.
+- **Description**: A custom sorting algorithm to sort an array in descending order without relying on JavaScript's built-in `sort()` method.
   
-- **Implementation**: 
-    - A simple bubble sort or selection sort algorithm is used to sort the array in descending order.
+- **Implementation**: A simple sorting algorithm, like bubble sort, is used to sort the array in descending order.
 
 ---
 
-## HTML Solutions
+## HTML Projects
 
 ### Basic Calculator
-- **Description**: 
-    - Created a simple calculator using HTML, CSS, and JavaScript that performs basic arithmetic operations: add, subtract, multiply, and divide.
-    - The layout and styling are done using HTML and CSS, with JavaScript used to handle the logic of the operations.
-
-- **Implementation**: 
-    - The calculator features buttons for digits and operations. The user can enter numbers, choose an operation, and click “Equals” to get the result.
+- **Description**: A simple **Basic Calculator** built using HTML, CSS, and JavaScript. The calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+  
+- **Live Demo**: [Basic Calculator](https://parthasarathy27.github.io/Coding-Assignment---ASE/Html_assignment/basic%20calculator/index.html)
 
 ---
 
 ### Survey Form
-- **Description**: 
-    - Designed a survey form with the following fields: **First Name**, **Last Name**, **Date of Birth**, **Country**, **Gender**, **Profession**, **Email**, and **Mobile Number**.
-    - Added validation to ensure all fields are filled before submission. After submitting, the form displays a popup with the entered values, and the form is reset afterward.
-
-- **Implementation**: 
-    - The form uses HTML for structure and JavaScript for validation and form handling. The popup displays the form’s entered data with labels and allows resetting the form on closing.
+- **Description**: A **Survey Form** that collects user information such as Name, Date of Birth, Gender, Profession, Email, and Mobile Number. It includes form validation to ensure all fields are completed before submission.
+  
+- **Live Demo**: [Survey Form](https://parthasarathy27.github.io/Coding-Assignment---ASE/Html_assignment/survey%20form/index.html)
 
 ---
 
@@ -95,20 +75,20 @@ This repository contains the solutions for the **Coding Assignment** for the pos
 ### Java:
 1. Clone the repository or download the files.
 2. Navigate to the Java files (`ShuffleArray.java`, `RomanToInteger.java`, `PangramChecker.java`).
-3. Compile and run each Java file in your preferred IDE or terminal.
+3. Compile and run the Java files in your IDE or terminal.
 
 ### JavaScript (Node.js):
 1. Clone the repository or download the files.
-2. Ensure that you have **Node.js** installed on your system. If not, you can download and install it from [here](https://nodejs.org/).
+2. Ensure **Node.js** is installed. You can download it from [here](https://nodejs.org/).
 3. Open a terminal and navigate to the JavaScript files (`reverseWords.js`, `sortArray.js`).
-4. Run the JavaScript files using Node.js by running the following commands in the terminal:
-    ```bash
-    node reverseWords.js
-    node sortArray.js
-    ```
+4. Run the JavaScript files using Node.js:
+   ```bash
+   node reverseWords.js
+   node sortArray.js
+   ```
 
 ### HTML:
-1. Open `basicCalculator.html` or `surveyForm.html` in a modern web browser.
-2. The JavaScript logic is embedded within the HTML files, so all functionality will work directly when you open the files in the browser.
+1. Open `basicCalculator.html` or `surveyForm.html` in any modern web browser to interact with the projects.
+2. Both projects are functional with embedded JavaScript for interactivity.
 
 ---
