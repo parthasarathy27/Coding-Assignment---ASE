@@ -90,5 +90,3 @@ This repository contains the solutions to the **Associate Software Engineer** co
 ### HTML:
 1. Open `basicCalculator.html` or `surveyForm.html` in any modern web browser to interact with the projects.
 2. Both projects are functional with embedded JavaScript for interactivity.
-
----
