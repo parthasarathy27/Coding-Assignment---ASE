@@ -1,6 +1,6 @@
 # Coding Assignment – Associate Software Engineer
 
-This repository contains the solutions to the coding assignment for the position of **Associate Software Engineer** at **Cloud Vandana**. The assignment aims to evaluate problem-solving skills, understanding of algorithms, and the ability to write clean and efficient code.
+This repository contains the solutions for the **Coding Assignment** for the position of **Associate Software Engineer** at **Cloud Vandana**. The assignment covers a series of tasks in **Java**, **JavaScript**, and **HTML**, designed to evaluate problem-solving abilities, coding skills, and creativity.
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ This repository contains the solutions to the coding assignment for the position
   
 - **Implementation**: 
     - The `shuffleArray()` method randomly swaps elements of the array to achieve a shuffled state.
-  
+
 ---
 
 ### Convert Roman Numerals to Integer
@@ -93,15 +93,22 @@ This repository contains the solutions to the coding assignment for the position
 ## How to Run the Code
 
 ### Java:
-1. Download or clone the repository.
+1. Clone the repository or download the files.
 2. Navigate to the Java files (`ShuffleArray.java`, `RomanToInteger.java`, `PangramChecker.java`).
-3. Compile and run each Java file in your preferred IDE or via the terminal.
+3. Compile and run each Java file in your preferred IDE or terminal.
 
-### JavaScript:
-1. Open the `.html` files (e.g., `reverseWords.html`, `sortArray.html`) in any modern web browser.
-2. The JavaScript logic is embedded within the HTML files, so the functionality will work directly when you open the file.
+### JavaScript (Node.js):
+1. Clone the repository or download the files.
+2. Ensure that you have **Node.js** installed on your system. If not, you can download and install it from [here](https://nodejs.org/).
+3. Open a terminal and navigate to the JavaScript files (`reverseWords.js`, `sortArray.js`).
+4. Run the JavaScript files using Node.js by running the following commands in the terminal:
+    ```bash
+    node reverseWords.js
+    node sortArray.js
+    ```
 
 ### HTML:
-1. Open `basicCalculator.html` or `surveyForm.html` in a web browser to interact with the calculator and survey form.
+1. Open `basicCalculator.html` or `surveyForm.html` in a modern web browser.
+2. The JavaScript logic is embedded within the HTML files, so all functionality will work directly when you open the files in the browser.
 
 ---
